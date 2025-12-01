@@ -47,30 +47,40 @@ The workflow follows five structured phases:
 ## 3. Quickstart
 
 ### 3.1 Clone the project
-git clone https://github.com/Kavyashreekl02/Gemini-Driven-Market-Intelligence-Content-Automation.git <br>
+``` bash
+git clone https://github.com/Kavyashreekl02/Gemini-Driven-Market-Intelligence-Content-Automation.git
 cd Gemini-Driven-Market-Intelligence-Content-Automation
+```
 
 ### 3.2 Create virtual environment
-#### Windows
+### Windows
+``` bash
 python -m venv .venv
 .venv\Scripts\activate
+```
 
-#### 3.3 Mac/Linux
+### Mac/Linux
+``` bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
-### 3.4 Install dependencies
+### 3.3 Install dependencies
+``` bash
 pip install -r requirements.txt
+```
 
-### 3.5 Run the pipeline
-python src/data_pipeline.py <br>
-python src/ai_insights.py <br>
-python src/report_generator.py <br>
-python src/d2c_data_generator.py <br> 
-python src/d2c_metrics_analysis.py <br> 
-python src/ai_creative.py <br>
+### 3.4 Run the pipeline
+``` bash
+python src/data_pipeline.py 
+python src/ai_insights.py 
+python src/report_generator.py 
+python src/d2c_data_generator.py
+python src/d2c_metrics_analysis.py 
+python src/ai_creative.py
+```
 
-### 3.6 UI Component
+### 3.5 UI Component
 The project includes a browser-based interface:
 
 You can open the UI in two ways:
@@ -87,6 +97,7 @@ Alternatively:
 - Navigate to `src/`
 - Double-click `query_interface.html`  
 - It will open directly in your browser
+
 
 
 
