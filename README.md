@@ -47,7 +47,7 @@ The workflow follows five structured phases:
 ## 3. Quickstart
 
 ### 3.1 Clone the project
-git clone https://github.com/Kavyashreekl02/Gemini-Driven-Market-Intelligence-Content-Automation.git
+git clone https://github.com/Kavyashreekl02/Gemini-Driven-Market-Intelligence-Content-Automation.git <br>
 cd Gemini-Driven-Market-Intelligence-Content-Automation
 
 ### 3.2 Create virtual environment
@@ -87,6 +87,7 @@ Alternatively:
 - Navigate to `src/`
 - Double-click `query_interface.html`  
 - It will open directly in your browser
+
 
 
 
