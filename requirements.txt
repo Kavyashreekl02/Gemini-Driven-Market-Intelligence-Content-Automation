@@ -1,0 +1,6 @@
+pandas
+numpy
+requests
+openai
+streamlit
+google-genai

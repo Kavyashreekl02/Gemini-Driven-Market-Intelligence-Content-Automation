@@ -1,0 +1,12 @@
+# Virtual environments
+venv/
+.venv/
+
+# VSCode *workspace* settings
+.vscode/*.db
+.vscode/*.cache
+.vscode/*.log
+
+# Allow recommended dev settings
+!.vscode/settings.json
+!.vscode/extensions.json
