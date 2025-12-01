@@ -46,23 +46,23 @@ The workflow follows five structured phases:
 
 ## 3. Quickstart
 
-### Clone the project
+### 3.1 Clone the project
 git clone https://github.com/Kavyashreekl02/Gemini-Driven-Market-Intelligence-Content-Automation.git
 cd Gemini-Driven-Market-Intelligence-Content-Automation
 
-### Create virtual environment
-# Windows
+### 3.2 Create virtual environment
+#### Windows
 python -m venv .venv
 .venv\Scripts\activate
 
-# Mac/Linux
+#### 3.3 Mac/Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-### Install dependencies
+### 3.4 Install dependencies
 pip install -r requirements.txt
 
-### Run the pipeline
+### 3.5 Run the pipeline
 python src/data_pipeline.py
 python src/ai_insights.py
 python src/report_generator.py
@@ -70,7 +70,7 @@ python src/d2c_data_generator.py
 python src/d2c_metrics_analysis.py
 python src/ai_creative.py
 
-### UI Component
+### 3.6 UI Component
 The project includes a browser-based interface:
 
 You can open the UI in two ways:
@@ -87,6 +87,7 @@ Alternatively:
 - Navigate to `src/`
 - Double-click `query_interface.html`  
 - It will open directly in your browser
+
 
 
 
