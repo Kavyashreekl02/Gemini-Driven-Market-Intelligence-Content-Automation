@@ -63,12 +63,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 ### 3.5 Run the pipeline
-python src/data_pipeline.py  
-python src/ai_insights.py  
-python src/report_generator.py  
-python src/d2c_data_generator.py  
-python src/d2c_metrics_analysis.py  
-python src/ai_creative.py  
+python src/data_pipeline.py <br>
+python src/ai_insights.py <br>
+python src/report_generator.py <br>
+python src/d2c_data_generator.py <br> 
+python src/d2c_metrics_analysis.py <br> 
+python src/ai_creative.py <br>
 
 ### 3.6 UI Component
 The project includes a browser-based interface:
@@ -87,6 +87,7 @@ Alternatively:
 - Navigate to `src/`
 - Double-click `query_interface.html`  
 - It will open directly in your browser
+
 
 
 
